@@ -1,0 +1,22 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: dkurepa <dkurepa@microsoft.com>
+Date: Thu, 22 Dec 2022 16:09:33 +0100
+Subject: [PATCH] Add test patch
+
+---
+ Directory.Build.props | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Directory.Build.props b/Directory.Build.props
+index 01df765884..079d348a8c 100644
+--- a/Directory.Build.props
++++ b/Directory.Build.props
+@@ -2,7 +2,7 @@
+ <Project>
+   <Import Project="Sdk.props" Sdk="Microsoft.DotNet.Arcade.Sdk" />
+   <Import Project="$(RepositoryEngineeringDir)Analyzers.props" />
+-
++Just A test
+   <PropertyGroup>
+     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+     <LangVersion>Latest</LangVersion>
